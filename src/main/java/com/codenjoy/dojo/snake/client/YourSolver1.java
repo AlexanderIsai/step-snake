@@ -202,7 +202,7 @@ public class YourSolver1 implements Solver<Board> {
 
     public static void main(String[] args) {
         WebSocketRunner.runClient(
-                "http://138.197.189.109/codenjoy-contest/board/player/qrrqmrs27a9b6ktz9rda?code=971449389089066024",
+                "http://138.197.189.109/codenjoy-contest/board/player/617q9mgvhaenzb9ctprv?code=5229326561251593581",
                 new YourSolver1(new RandomDice()),
                 new Board());
     }
