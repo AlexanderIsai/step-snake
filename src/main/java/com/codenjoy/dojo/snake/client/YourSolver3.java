@@ -190,7 +190,7 @@ public class YourSolver3 implements Solver<Board> {
     public static void main(String[] args) {
         WebSocketRunner.runClient(
                 // вставьте сюда URL страницы с доской из браузера после регистрации
-                "http://138.197.189.109/codenjoy-contest/board/player/qrrqmrs27a9b6ktz9rda?code=971449389089066024",
+                "http://138.197.189.109/codenjoy-contest/board/player/5k1qubs8qwzzbhfvsi1c?code=4542803429519937099",
                 new YourSolver3(new RandomDice()),
                 new Board()
         );
